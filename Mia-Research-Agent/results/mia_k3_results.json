@@ -1,0 +1,326 @@
+[
+  {
+    "question_id": "eval_001",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: In this setting, the key is to match the disease context and line of therapy to EGFR, tyrosine kinase inhibitor, osimertinib, first-line, and metastatic NSCLC. The likely answer centers on a guideline-style targeted or multimodal treatment choice. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_001",
+      "traj_008",
+      "traj_012"
+    ],
+    "retrieved_memory_categories": [
+      "treatment_guideline",
+      "adverse_effect",
+      "adverse_effect"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify disease, stage, molecular context, and treatment line.",
+      "Identify cancer type, stage, and treatment setting.",
+      "Identify actionable biomarker or molecular subtype.",
+      "Determine line of therapy.",
+      "Check guideline-style evidence and pivotal trial context.",
+      "Check retrieved caution: Mixing treatment settings such as metastatic versus adjuvant disease.",
+      "Produce concise research answer with caveats."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_002",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is PD-L1, tumor proportion score, TPS, pembrolizumab, and driver mutations. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 3,
+    "retrieved_memory_ids": [
+      "traj_002",
+      "traj_006",
+      "traj_009"
+    ],
+    "retrieved_memory_categories": [
+      "biomarker_matching",
+      "biomarker_matching",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify the biomarker, assay threshold, and cancer type.",
+      "Identify biomarker or mutation.",
+      "Identify cancer type.",
+      "Match biomarker to relevant therapy class.",
+      "Verify whether the biomarker is predictive, prognostic, or diagnostic.",
+      "Check retrieved caution: Confusing prognostic and predictive biomarker roles.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_003",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: The mechanism can be summarized through PARP, BRCA, homologous recombination, DNA repair, and synthetic lethality. The therapy affects the molecular target or pathway and then produces downstream effects on tumor cell survival or growth. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_003",
+      "traj_012",
+      "traj_007"
+    ],
+    "retrieved_memory_categories": [
+      "drug_mechanism",
+      "adverse_effect",
+      "drug_mechanism"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Map the drug target to the affected cancer biology pathway.",
+      "Identify drug or therapy class.",
+      "Identify molecular target.",
+      "Explain pathway or mechanism of action.",
+      "Mention resistance or downstream effect if relevant.",
+      "Check retrieved caution: Listing a drug target without explaining the pathway consequence.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_004",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is immune-related adverse events, pneumonitis, colitis, hepatitis, and endocrinopathy. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 3,
+    "retrieved_memory_ids": [
+      "traj_004",
+      "traj_008",
+      "traj_012"
+    ],
+    "retrieved_memory_categories": [
+      "adverse_effect",
+      "adverse_effect",
+      "adverse_effect"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Search by drug class plus signature toxicity pattern.",
+      "Identify drug or therapy class.",
+      "Identify key toxicity or adverse effect.",
+      "Explain why it matters clinically.",
+      "Mention monitoring or management context at a high level.",
+      "Check retrieved caution: Reporting a single symptom while missing the broader toxicity pattern.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_005",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: Interpret the trial result by connecting hazard ratio, below 1, progression-free survival, progression or death, and confidence interval. The key is the endpoint, direction of effect, and whether the result supports meaningful clinical benefit. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_005",
+      "traj_011",
+      "traj_002"
+    ],
+    "retrieved_memory_categories": [
+      "clinical_trial_interpretation",
+      "clinical_trial_interpretation",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify endpoint, comparison arms, and direction of effect.",
+      "Identify study population.",
+      "Identify intervention and comparator.",
+      "Identify endpoint.",
+      "Interpret result direction.",
+      "Check retrieved caution: Treating hazard ratios as absolute survival probabilities.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_006",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is HER2, IHC 3+, ISH, amplification, and targeted therapy. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 3,
+    "retrieved_memory_ids": [
+      "traj_006",
+      "traj_001",
+      "traj_002"
+    ],
+    "retrieved_memory_categories": [
+      "biomarker_matching",
+      "treatment_guideline",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify the biomarker, assay threshold, and cancer type.",
+      "Identify biomarker or mutation.",
+      "Identify cancer type.",
+      "Match biomarker to relevant therapy class.",
+      "Verify whether the biomarker is predictive, prognostic, or diagnostic.",
+      "Check retrieved caution: Confusing prognostic and predictive biomarker roles.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_007",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: The mechanism can be summarized through VEGF, angiogenesis, blood vessels, bevacizumab, and vascular. The therapy affects the molecular target or pathway and then produces downstream effects on tumor cell survival or growth. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_007",
+      "traj_003",
+      "traj_006"
+    ],
+    "retrieved_memory_categories": [
+      "drug_mechanism",
+      "drug_mechanism",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Map the drug target to the affected cancer biology pathway.",
+      "Identify drug or therapy class.",
+      "Identify molecular target.",
+      "Explain pathway or mechanism of action.",
+      "Mention resistance or downstream effect if relevant.",
+      "Check retrieved caution: Listing a drug target without explaining the pathway consequence.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_008",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is anthracycline, doxorubicin, cardiotoxicity, ejection fraction, and cardiomyopathy. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 3,
+    "retrieved_memory_ids": [
+      "traj_008",
+      "traj_004",
+      "traj_012"
+    ],
+    "retrieved_memory_categories": [
+      "adverse_effect",
+      "adverse_effect",
+      "adverse_effect"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Search by drug class plus signature toxicity pattern.",
+      "Identify drug or therapy class.",
+      "Identify key toxicity or adverse effect.",
+      "Explain why it matters clinically.",
+      "Mention monitoring or management context at a high level.",
+      "Check retrieved caution: Reporting a single symptom while missing the broader toxicity pattern.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_009",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is BRAF V600E, metastatic colorectal cancer, prognosis, BRAF inhibition, and EGFR inhibition. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_009",
+      "traj_011",
+      "traj_007"
+    ],
+    "retrieved_memory_categories": [
+      "biomarker_matching",
+      "clinical_trial_interpretation",
+      "drug_mechanism"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify the biomarker, assay threshold, and cancer type.",
+      "Identify biomarker or mutation.",
+      "Identify cancer type.",
+      "Match biomarker to relevant therapy class.",
+      "Verify whether the biomarker is predictive, prognostic, or diagnostic.",
+      "Check retrieved caution: Confusing prognostic and predictive biomarker roles.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_010",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: In this setting, the key is to match the disease context and line of therapy to neoadjuvant, rectal cancer, downstage, local control, and sphincter preservation. The likely answer centers on a guideline-style targeted or multimodal treatment choice. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 3,
+    "retrieved_memory_ids": [
+      "traj_010",
+      "traj_002",
+      "traj_006"
+    ],
+    "retrieved_memory_categories": [
+      "treatment_guideline",
+      "biomarker_matching",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify disease, stage, molecular context, and treatment line.",
+      "Identify cancer type, stage, and treatment setting.",
+      "Identify actionable biomarker or molecular subtype.",
+      "Determine line of therapy.",
+      "Check guideline-style evidence and pivotal trial context.",
+      "Check retrieved caution: Mixing treatment settings such as metastatic versus adjuvant disease.",
+      "Produce concise research answer with caveats."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_011",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: Interpret the trial result by connecting overall survival, objective response rate, surrogate, tumor shrinkage, and clinical benefit. The key is the endpoint, direction of effect, and whether the result supports meaningful clinical benefit. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_011",
+      "traj_005",
+      "traj_007"
+    ],
+    "retrieved_memory_categories": [
+      "clinical_trial_interpretation",
+      "clinical_trial_interpretation",
+      "drug_mechanism"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify endpoint, comparison arms, and direction of effect.",
+      "Identify study population.",
+      "Identify intervention and comparator.",
+      "Identify endpoint.",
+      "Interpret result direction.",
+      "Check retrieved caution: Treating hazard ratios as absolute survival probabilities.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  },
+  {
+    "question_id": "eval_012",
+    "condition": "mia_k3",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is EGFR inhibitor, acneiform rash, skin toxicity, diarrhea, and paronychia. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 3,
+    "retrieved_memory_ids": [
+      "traj_012",
+      "traj_004",
+      "traj_008"
+    ],
+    "retrieved_memory_categories": [
+      "adverse_effect",
+      "adverse_effect",
+      "adverse_effect"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Search by drug class plus signature toxicity pattern.",
+      "Identify drug or therapy class.",
+      "Identify key toxicity or adverse effect.",
+      "Explain why it matters clinically.",
+      "Mention monitoring or management context at a high level.",
+      "Check retrieved caution: Reporting a single symptom while missing the broader toxicity pattern.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 1.0
+  }
+]

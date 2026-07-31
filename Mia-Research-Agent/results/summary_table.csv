@@ -1,0 +1,5 @@
+condition,num_questions,accuracy,average_keyword_f1,average_steps_to_answer,memory_hit_rate
+baseline_no_memory,12,0.3333333333333333,0.55,5.0,N/A
+mia_k1,12,0.75,0.7666666666666667,3.5,1.0
+mia_k3,12,1.0,1.0,3.5,1.0
+random_k3,12,0.3333333333333333,0.5833333333333334,4.666666666666667,0.3333333333333333

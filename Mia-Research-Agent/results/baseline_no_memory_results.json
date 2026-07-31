@@ -1,0 +1,134 @@
+[
+  {
+    "question_id": "eval_001",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: In this setting, the key is to match the disease context and line of therapy to EGFR, and tyrosine kinase inhibitor. The likely answer centers on a guideline-style targeted or multimodal treatment choice. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_002",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is PD-L1, and tumor proportion score. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 6,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_003",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: The mechanism can be summarized through PARP, BRCA, homologous recombination, and DNA repair. The therapy affects the molecular target or pathway and then produces downstream effects on tumor cell survival or growth. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": true,
+    "keyword_f1": 0.8
+  },
+  {
+    "question_id": "eval_004",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is immune-related adverse events, and pneumonitis. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_005",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: Interpret the trial result by connecting hazard ratio, and below 1. The key is the endpoint, direction of effect, and whether the result supports meaningful clinical benefit. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 6,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_006",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is HER2, IHC 3+, ISH, and amplification. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": true,
+    "keyword_f1": 0.8
+  },
+  {
+    "question_id": "eval_007",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: The mechanism can be summarized through VEGF, and angiogenesis. The therapy affects the molecular target or pathway and then produces downstream effects on tumor cell survival or growth. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_008",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is anthracycline, and doxorubicin. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 6,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_009",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is BRAF V600E, metastatic colorectal cancer, prognosis, and BRAF inhibition. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": true,
+    "keyword_f1": 0.8
+  },
+  {
+    "question_id": "eval_010",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: In this setting, the key is to match the disease context and line of therapy to neoadjuvant, and rectal cancer. The likely answer centers on a guideline-style targeted or multimodal treatment choice. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_011",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: Interpret the trial result by connecting overall survival, and objective response rate. The key is the endpoint, direction of effect, and whether the result supports meaningful clinical benefit. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 6,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": false,
+    "keyword_f1": 0.6
+  },
+  {
+    "question_id": "eval_012",
+    "condition": "baseline_no_memory",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is EGFR inhibitor, acneiform rash, skin toxicity, and diarrhea. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. This baseline answer uses only broad question cues, so it may miss specific eligibility details.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [],
+    "retrieved_memory_categories": [],
+    "plan_steps": [],
+    "is_correct": true,
+    "keyword_f1": 0.8
+  }
+]
