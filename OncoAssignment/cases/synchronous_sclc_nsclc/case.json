@@ -1,0 +1,25 @@
+{
+  "id": "synchronous_sclc_nsclc",
+  "title": "Two FDG-avid Lung Lesions: Synchronous SCLC and NSCLC vs. Metastatic Disease",
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3858864/",
+  "case_packet": {
+    "clinical_summary": "A 74-year-old male with a 60 pack-year smoking history presents with 3 months of unintentional weight loss, exertional dyspnea, and occasional non-productive cough.",
+    "imaging_findings": "CT chest: a 2.6-cm irregular nodular opacity along the pleural surface of the right upper lobe, slightly larger compared to imaging from 3 years prior; a separate new 4-cm right upper lobe perihilar mass. PET: both lesions demonstrate intense FDG avidity. The slow growth of the peripheral nodule over 3 years contrasts with the new and larger perihilar mass.",
+    "pathology_report": "Specimen 1 — Endobronchial ultrasound-guided biopsy, right hilar mass:\n\n- Small cell lung carcinoma.\n- IHC: TTF-1 positive; CD56 positive; synaptophysin positive; chromogranin A negative; napsin A negative.\n\nSpecimen 2 — CT-guided core needle biopsy, right upper lobe peripheral nodule:\n\n- Adenosquamous non-small cell lung carcinoma.\n- Histology distinct from Specimen 1."
+  },
+  "images": [
+    {
+      "file": "images/fig2_ct_pet_dual_lesions.jpg",
+      "caption": "CT and PET imaging showing two right upper lobe lesions: a 2.6-cm peripheral pleural-based nodule (present on prior imaging 3 years ago, slow-growing) and a new 4-cm perihilar mass. Both are intensely FDG-avid on PET, raising the question of synchronous primaries versus metastatic disease.",
+      "modality": "CT / PET-CT",
+      "viewer": "oncologist"
+    }
+  ],
+  "evaluation_target": {
+    "diagnosis": "Synchronous primaries: limited-stage small cell lung carcinoma (T2a N1 M0) in the right hilum, and stage IA adenosquamous NSCLC (T1b N0 M0) in the right upper lobe periphery.",
+    "key_board_question": "Are the two FDG-avid lesions one primary with metastasis (extensive-stage SCLC) or two independent primaries? The imaging behavior (slow peripheral growth over 3 years) and distinct histologies on separate biopsies confirm synchronous primaries — dramatically changing staging and treatment.",
+    "expected_plan": "Treat as two synchronous primaries: cisplatin/etoposide with concurrent thoracic radiotherapy for limited-stage SCLC; surgical resection or stereotactic body radiotherapy for the stage IA NSCLC after SCLC treatment.",
+    "follow_up": "Response assessment imaging after chemoradiotherapy; brain MRI for SCLC staging and prophylactic cranial irradiation consideration; molecular profiling of NSCLC component for targeted therapy options.",
+    "negative_checks": "Do not classify as extensive-stage SCLC based on two FDG-avid lesions alone without tissue confirmation of both lesions; do not treat the peripheral nodule as an SCLC metastasis given its 3-year indolent course and distinct histology."
+  }
+}
