@@ -1,0 +1,17 @@
+{
+  "id": "nsclc_egfr_l858r_advanced",
+  "title": "Advanced NSCLC: Lung Adenocarcinoma with EGFR L858R Mutation",
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822184/",
+  "case_packet": {
+    "clinical_summary": "A 63-year-old woman who has never smoked presents with 3 months of progressive dyspnea, fatigue, and unintentional 20 lb weight loss. She has no significant past medical history and no family history of cancer. Physical examination reveals wheezing over the right upper chest and a firm, nontender supraclavicular lymph node.",
+    "imaging_findings": "Chest X-ray shows a 5-cm opacity in the right upper lung field. CT chest shows a solitary spiculated 4.5-cm radiodense mass in the right upper lobe, suspicious for malignancy.",
+    "pathology_report": "FNA and core biopsy, right upper lobe lung mass:\n\n- Non-small cell carcinoma, adenocarcinoma.\n- Core biopsy: infiltrative malignant cells forming glandular spaces with pleomorphic hyperchromatic nuclei.\n- FNA: malignant cells in small three-dimensional clusters with increased nuclear-to-cytoplasmic ratio and vacuolated cytoplasm.\n- IHC: TTF-1 positive (nuclear); Napsin-A positive (cytoplasmic); p40 negative.\n- Molecular: EGFR exon 21 L858R substitution detected.\n- Additional molecular markers: not reported."
+  },
+  "evaluation_target": {
+    "diagnosis": "Lung adenocarcinoma with EGFR L858R activating mutation.",
+    "biomarkers": "TTF-1 and Napsin-A positive, p40 negative (confirming adenocarcinoma lineage); EGFR L858R driver mutation detected.",
+    "expected_plan": "Advanced EGFR-mutated NSCLC; first-line treatment should prioritize EGFR-directed targeted therapy (e.g., osimertinib) rather than default chemotherapy or immunotherapy.",
+    "follow_up": "Complete staging including brain MRI if not done; additional molecular testing (ALK, ROS1, PD-L1) may be pursued per institutional protocol; monitor for acquired resistance on progression.",
+    "negative_checks": "Do not classify as squamous carcinoma; do not make PD-L1 immunotherapy the primary first-line recommendation when EGFR L858R is identified; do not recommend generic platinum-doublet chemotherapy as the main strategy."
+  }
+}

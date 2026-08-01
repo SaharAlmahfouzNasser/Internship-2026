@@ -1,0 +1,17 @@
+{
+  "id": "breast_her2_equivocal_then_fish_positive",
+  "title": "HER2-positive Breast Cancer: Equivocal IHC Resolved by FISH",
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8642036/",
+  "case_packet": {
+    "clinical_summary": "A 65-year-old woman with no relevant past medical history is found to have a new spiculated right breast mass on routine screening mammogram. Family history is significant for breast cancer in her mother and maternal grandmother, both diagnosed after age 75. No symptoms are reported.",
+    "imaging_findings": "Screening mammogram shows a spiculated right breast mass measuring approximately 1.6 cm. Clinical staging based on physical examination and imaging is cT1cN0.",
+    "pathology_report": "Core needle biopsy, right breast mass:\n\n- Poorly differentiated invasive ductal carcinoma.\n- No lymphovascular invasion identified.\n- No in situ carcinoma identified in sampled cores.\n- ER: negative.\n- PR: negative.\n- HER2 IHC: 2+ equivocal; moderate complete membrane staining in greater than 10% of tumor cells.\n- Reflex HER2 FISH: amplified; HER2/CEP17 ratio 3.7, average HER2 copy number 9.4 signals per cell.\n- Final HER2 interpretation: positive.\n- Grade and margins: not reported."
+  },
+  "evaluation_target": {
+    "diagnosis": "Poorly differentiated invasive ductal carcinoma, ER/PR negative, HER2 positive (FISH-confirmed).",
+    "biomarkers": "Appears triple-negative by IHC alone; HER2 positive by reflex FISH — treatment category is HER2-positive, not triple-negative.",
+    "expected_plan": "HER2-positive early breast cancer; surgical management with sentinel lymph node staging; adjuvant chemotherapy with HER2-targeted therapy (trastuzumab-based); baseline cardiac assessment before anti-HER2 therapy.",
+    "follow_up": "Final surgical pathology for nodal status, margins, and definitive pathologic stage; cardiac function assessment if anti-HER2 therapy is planned.",
+    "negative_checks": "Do not stop at equivocal HER2 IHC without reflex FISH; do not treat as triple-negative; do not make endocrine therapy a primary strategy given ER/PR negativity."
+  }
+}
