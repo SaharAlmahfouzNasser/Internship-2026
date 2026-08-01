@@ -1,0 +1,318 @@
+[
+  {
+    "question_id": "eval_001",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: In this setting, the key is to match the disease context and line of therapy to EGFR, and tyrosine kinase inhibitor. The likely answer centers on a guideline-style targeted or multimodal treatment choice. Retrieved memory is treated cautiously because it may not match the question category.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [
+      "traj_006",
+      "traj_003",
+      "traj_007"
+    ],
+    "retrieved_memory_categories": [
+      "biomarker_matching",
+      "drug_mechanism",
+      "drug_mechanism"
+    ],
+    "plan_steps": [
+      "Treat retrieved memory as weak context because its category does not match the question.",
+      "Identify biomarker or mutation.",
+      "Identify cancer type.",
+      "Match biomarker to relevant therapy class.",
+      "Verify whether the biomarker is predictive, prognostic, or diagnostic.",
+      "Produce concise answer."
+    ],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_002",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is PD-L1, tumor proportion score, TPS, and pembrolizumab. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_011",
+      "traj_001",
+      "traj_002"
+    ],
+    "retrieved_memory_categories": [
+      "clinical_trial_interpretation",
+      "treatment_guideline",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify the biomarker, assay threshold, and cancer type.",
+      "Identify biomarker or mutation.",
+      "Identify cancer type.",
+      "Match biomarker to relevant therapy class.",
+      "Verify whether the biomarker is predictive, prognostic, or diagnostic.",
+      "Check retrieved caution: Confusing prognostic and predictive biomarker roles.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 0.8
+  },
+  {
+    "question_id": "eval_003",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: The mechanism can be summarized through PARP, BRCA, and homologous recombination. The therapy affects the molecular target or pathway and then produces downstream effects on tumor cell survival or growth. Retrieved memory is treated cautiously because it may not match the question category.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [
+      "traj_009",
+      "traj_002",
+      "traj_006"
+    ],
+    "retrieved_memory_categories": [
+      "biomarker_matching",
+      "biomarker_matching",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Treat retrieved memory as weak context because its category does not match the question.",
+      "Identify biomarker or mutation.",
+      "Identify cancer type.",
+      "Match biomarker to relevant therapy class.",
+      "Verify whether the biomarker is predictive, prognostic, or diagnostic.",
+      "Produce concise answer."
+    ],
+    "is_correct": false,
+    "keyword_f1": 0.6
+  },
+  {
+    "question_id": "eval_004",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is immune-related adverse events, and pneumonitis. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. Retrieved memory is treated cautiously because it may not match the question category.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [
+      "traj_010",
+      "traj_001",
+      "traj_009"
+    ],
+    "retrieved_memory_categories": [
+      "treatment_guideline",
+      "treatment_guideline",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Treat retrieved memory as weak context because its category does not match the question.",
+      "Identify cancer type, stage, and treatment setting.",
+      "Identify actionable biomarker or molecular subtype.",
+      "Determine line of therapy.",
+      "Check guideline-style evidence and pivotal trial context.",
+      "Produce concise research answer with caveats."
+    ],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_005",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: Interpret the trial result by connecting hazard ratio, and below 1. The key is the endpoint, direction of effect, and whether the result supports meaningful clinical benefit. Retrieved memory is treated cautiously because it may not match the question category.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [
+      "traj_004",
+      "traj_001",
+      "traj_002"
+    ],
+    "retrieved_memory_categories": [
+      "adverse_effect",
+      "treatment_guideline",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Treat retrieved memory as weak context because its category does not match the question.",
+      "Identify drug or therapy class.",
+      "Identify key toxicity or adverse effect.",
+      "Explain why it matters clinically.",
+      "Mention monitoring or management context at a high level.",
+      "Produce concise answer."
+    ],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_006",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is HER2, IHC 3+, ISH, and amplification. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_007",
+      "traj_012",
+      "traj_002"
+    ],
+    "retrieved_memory_categories": [
+      "drug_mechanism",
+      "adverse_effect",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify the biomarker, assay threshold, and cancer type.",
+      "Identify biomarker or mutation.",
+      "Identify cancer type.",
+      "Match biomarker to relevant therapy class.",
+      "Verify whether the biomarker is predictive, prognostic, or diagnostic.",
+      "Check retrieved caution: Confusing prognostic and predictive biomarker roles.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 0.8
+  },
+  {
+    "question_id": "eval_007",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: The mechanism can be summarized through VEGF, and angiogenesis. The therapy affects the molecular target or pathway and then produces downstream effects on tumor cell survival or growth. Retrieved memory is treated cautiously because it may not match the question category.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [
+      "traj_004",
+      "traj_002",
+      "traj_009"
+    ],
+    "retrieved_memory_categories": [
+      "adverse_effect",
+      "biomarker_matching",
+      "biomarker_matching"
+    ],
+    "plan_steps": [
+      "Treat retrieved memory as weak context because its category does not match the question.",
+      "Identify drug or therapy class.",
+      "Identify key toxicity or adverse effect.",
+      "Explain why it matters clinically.",
+      "Mention monitoring or management context at a high level.",
+      "Produce concise answer."
+    ],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_008",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is anthracycline, and doxorubicin. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. Retrieved memory is treated cautiously because it may not match the question category.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [
+      "traj_007",
+      "traj_001",
+      "traj_010"
+    ],
+    "retrieved_memory_categories": [
+      "drug_mechanism",
+      "treatment_guideline",
+      "treatment_guideline"
+    ],
+    "plan_steps": [
+      "Treat retrieved memory as weak context because its category does not match the question.",
+      "Identify drug or therapy class.",
+      "Identify molecular target.",
+      "Explain pathway or mechanism of action.",
+      "Mention resistance or downstream effect if relevant.",
+      "Produce concise answer."
+    ],
+    "is_correct": false,
+    "keyword_f1": 0.4
+  },
+  {
+    "question_id": "eval_009",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: The relevant biomarker signal is BRAF V600E, metastatic colorectal cancer, prognosis, and BRAF inhibition. It should be interpreted as a marker that may guide therapy selection, prognosis, or diagnostic classification depending on context. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_002",
+      "traj_004",
+      "traj_010"
+    ],
+    "retrieved_memory_categories": [
+      "biomarker_matching",
+      "adverse_effect",
+      "treatment_guideline"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify the biomarker, assay threshold, and cancer type.",
+      "Identify biomarker or mutation.",
+      "Identify cancer type.",
+      "Match biomarker to relevant therapy class.",
+      "Verify whether the biomarker is predictive, prognostic, or diagnostic.",
+      "Check retrieved caution: Confusing prognostic and predictive biomarker roles.",
+      "Produce concise answer."
+    ],
+    "is_correct": true,
+    "keyword_f1": 0.8
+  },
+  {
+    "question_id": "eval_010",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: In this setting, the key is to match the disease context and line of therapy to neoadjuvant, rectal cancer, downstage, and local control. The likely answer centers on a guideline-style targeted or multimodal treatment choice. Retrieved same-category memory makes the reasoning path more direct.",
+    "steps_taken": 4,
+    "retrieved_memory_ids": [
+      "traj_001",
+      "traj_010",
+      "traj_011"
+    ],
+    "retrieved_memory_categories": [
+      "treatment_guideline",
+      "treatment_guideline",
+      "clinical_trial_interpretation"
+    ],
+    "plan_steps": [
+      "Apply retrieved workflow: Identify disease, stage, molecular context, and treatment line.",
+      "Identify cancer type, stage, and treatment setting.",
+      "Identify actionable biomarker or molecular subtype.",
+      "Determine line of therapy.",
+      "Check guideline-style evidence and pivotal trial context.",
+      "Check retrieved caution: Mixing treatment settings such as metastatic versus adjuvant disease.",
+      "Produce concise research answer with caveats."
+    ],
+    "is_correct": true,
+    "keyword_f1": 0.8
+  },
+  {
+    "question_id": "eval_011",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: Interpret the trial result by connecting overall survival, and objective response rate. The key is the endpoint, direction of effect, and whether the result supports meaningful clinical benefit. Retrieved memory is treated cautiously because it may not match the question category.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [
+      "traj_007",
+      "traj_001",
+      "traj_004"
+    ],
+    "retrieved_memory_categories": [
+      "drug_mechanism",
+      "treatment_guideline",
+      "adverse_effect"
+    ],
+    "plan_steps": [
+      "Treat retrieved memory as weak context because its category does not match the question.",
+      "Identify drug or therapy class.",
+      "Identify molecular target.",
+      "Explain pathway or mechanism of action.",
+      "Mention resistance or downstream effect if relevant.",
+      "Produce concise answer."
+    ],
+    "is_correct": false,
+    "keyword_f1": 0.6
+  },
+  {
+    "question_id": "eval_012",
+    "condition": "random_k3",
+    "answer": "Research demo answer, not clinical advice: The toxicity pattern to recognize is EGFR inhibitor, acneiform rash, and skin toxicity. It matters because oncology therapies often require organ- or class-specific monitoring and high-level management planning. Retrieved memory is treated cautiously because it may not match the question category.",
+    "steps_taken": 5,
+    "retrieved_memory_ids": [
+      "traj_001",
+      "traj_009",
+      "traj_003"
+    ],
+    "retrieved_memory_categories": [
+      "treatment_guideline",
+      "biomarker_matching",
+      "drug_mechanism"
+    ],
+    "plan_steps": [
+      "Treat retrieved memory as weak context because its category does not match the question.",
+      "Identify cancer type, stage, and treatment setting.",
+      "Identify actionable biomarker or molecular subtype.",
+      "Determine line of therapy.",
+      "Check guideline-style evidence and pivotal trial context.",
+      "Produce concise research answer with caveats."
+    ],
+    "is_correct": false,
+    "keyword_f1": 0.6
+  }
+]
